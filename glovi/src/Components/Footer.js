@@ -17,7 +17,7 @@ function Footer() {
                     <div className="FooterContent">
                         <h4>This Site</h4>
                         <li><a>Tracking</a></li>
-                        <li><a>Shipping</a></li>
+                        <li><a href="/Shipping">Shipping</a></li>
                         <li><a href="/Support">Help & Support</a></li>
                         <li><a href="/FAQ">FAQ</a></li>
                     </div>

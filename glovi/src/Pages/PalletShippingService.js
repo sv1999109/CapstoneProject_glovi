@@ -11,7 +11,7 @@ function Pallet() {
             <div className="Servicebody">
                 <div className='Servicerow'>
                     <div className='Serviceimg'>
-                        <img src={PalletImg} />
+                        <img src={PalletImg} alt='Pallet_Image'/>
                     </div>
 
                     <div className='Servicecontentwrapper'>

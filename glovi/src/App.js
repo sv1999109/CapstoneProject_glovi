@@ -16,6 +16,8 @@ import FAQ from "./Pages/FAQ.js";
 import PalletStacking from "./Pages/PalletStacking.js";
 import MasteringtheArt from "./Pages/MasteringtheArt.js";
 import UnderstandingProhibitedItems from "./Pages/UnderstandingProhibitedItems.js";
+import Shipping from "./Pages/Shipping.js";
+import GetEstimate from "./Pages/GetEstimate.js";
 
 function App() {
   return (
@@ -36,6 +38,8 @@ function App() {
         <Route path="/PalletStacking" element={<PalletStacking />}/>
         <Route path="/MasteringtheArt" element={<MasteringtheArt />}/>
         <Route path="/UnderstandingProhibitedItems" element={<UnderstandingProhibitedItems />}/>
+        <Route path="/Shipping" element={<Shipping />}/>
+        <Route path="/GetEstimate" element={<GetEstimate />}/>
       </Routes>
     </BrowserRouter>
   );

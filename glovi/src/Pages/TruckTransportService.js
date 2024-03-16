@@ -11,7 +11,7 @@ function Truck() {
             <div className="Servicebody">
                 <div className='Servicerow'>
                     <div className='Serviceimg'>
-                        <img src={TruckImg} />
+                        <img src={TruckImg} alt= "truck-transportation" />
                     </div>
 
                     <div className='Servicecontentwrapper'>

@@ -11,7 +11,7 @@ function Documents() {
             <div className="Servicebody">
                 <div className='Servicerow'>
                     <div className='Serviceimg'>
-                        <img src={DocumentsImg} />
+                        <img src={DocumentsImg} alt='Documents_Image'/>
                     </div>
 
                     <div className='Servicecontentwrapper'>

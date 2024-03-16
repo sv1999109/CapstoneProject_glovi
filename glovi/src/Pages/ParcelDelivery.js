@@ -11,7 +11,7 @@ function Parcel() {
             <div className="Servicebody">
                 <div className='Servicerow'>
                     <div className='Serviceimg'>
-                        <img src={VanImg} />
+                        <img src={VanImg} alt='Van_Image' />
                     </div>
 
                     <div className='Servicecontentwrapper'>
