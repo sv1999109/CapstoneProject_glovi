@@ -989,12 +989,7 @@ if (!function_exists('get_address')) {
 if (!function_exists('shippo')) {
     function shippo($type, array $data, $endpoint = null)
     {
-        $file_path = 'app/Helpers/api_key.txt';
-
-        if(file_exists($file_path))
-            $api_key = file_get_contents($file_path);
-        else echo "API key file not found.";
-        
+        $api_key = 'shippo_test_3cf13d3fd85b0a6a8647208c2cb5533c760a06c5';
         $api_key = get_config('shippo_key');
         $mode = get_config('shippo_mode');
         if ($type == 'shipment') {
