@@ -40,7 +40,6 @@ class Navbar extends Component {
                             )}
                         </li>
                         <li> <a href="/AboutUs">About</a> | </li>
-                        <li> <a href="/Support">Support</a> | </li>
                         <li> <a href="/GetEstimate">Get An Estimate</a> | </li>
                         <li><Link to="/login"><button className="btnSignup">Sign Up</button></Link></li>
 
