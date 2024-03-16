@@ -25,6 +25,7 @@ class Navbar extends Component {
 
                     <div id="Menu" className={this.state.clicked ? "menu active" : "Menu"}>
                         <li> <a className="active" href="/">Home</a> | </li>
+                        <li> <a href="/Shipping">Shipping</a> | </li>
                         <li className="Menu" onMouseEnter={this.toggleServicesDropdown} onMouseLeave={this.toggleServicesDropdown}>
                             <a href="#">Services</a>
                             {this.state.servicesClicked && (
