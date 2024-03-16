@@ -990,6 +990,10 @@ if (!function_exists('shippo')) {
     function shippo($type, array $data, $endpoint = null)
     {
         $api_key = 'shippo_test_3cf13d3fd85b0a6a8647208c2cb5533c760a06c5';
+<<<<<<< HEAD
+=======
+        
+>>>>>>> 170d30f40e399416179604e50220f0092888ad52
         $api_key = get_config('shippo_key');
         $mode = get_config('shippo_mode');
         if ($type == 'shipment') {
