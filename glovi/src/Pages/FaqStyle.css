@@ -80,3 +80,11 @@ color: skyblue;
     font-size: 15px;
     font-weight: 500;
 }
+
+.FaqText .hide {
+    display: none;
+}
+
+.FaqText .show {
+    display: block;
+}
