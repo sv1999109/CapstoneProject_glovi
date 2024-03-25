@@ -15,7 +15,7 @@ function Login() {
 
                 <div className='Signup'>
                     <form>
-                        <label htmlFor="chk" aria-hidden="true">Sign Up</label>
+                        <label htmlFor="chk" aria-hidden="true" className='SignupAndLoginLabel'>Sign Up</label>
                         <input className='LoginSignupInput' type='text' name='txt' placeholder='Username' required="" />
                         <input className='LoginSignupInput' type='text' name='FirstLastName' placeholder='First and Last Name' required="" />
                         <input className='LoginSignupInput' type='email' name='email' placeholder='Email' required="" />
@@ -27,7 +27,7 @@ function Login() {
                             required=""
                         />
 
-                        <input className='LoginSignupInput' type='password' name='password' placeholder='Select Country' required="" />                        
+                        <input className='LoginSignupInput' type='password' name='password' placeholder='Select Country' required="" />
                         <input className='LoginSignupInput' type='password' name='password' placeholder='Password' required="" />
                         <input className='LoginSignupInput' type='password' name='password' placeholder='Confirm Password' required="" />
                         <button className='btnLoginSignup'>Sign up</button>
@@ -36,7 +36,7 @@ function Login() {
 
                 <div className='Login'>
                     <form>
-                        <label htmlFor="chk" aria-hidden="true">Login</label>
+                        <label htmlFor="chk" aria-hidden="true" className='SignupAndLoginLabel'>Login</label>
                         <input className='LoginSignupInput' type='text' name='txt' placeholder='Username' required="" />
                         <input className='LoginSignupInput' type='password' name='password' placeholder='Password' required="" />
                         <button className='btnLoginSignup'>Login</button>
