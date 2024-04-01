@@ -7,20 +7,22 @@
 }
 
 .aboutSection{
-    background: url(../assets/AboutUs.jpg);
+    /* background: url(../assets/AboutUs.jpg); */
     background-color: white;
     overflow: hidden;
-    padding-top: 249px;
-    padding-bottom: 249px;    
+    padding-top: 149px;
+    padding-bottom: 149px;
     background-size: cover;
     width: 100%;
 }
 
 .aboutInnerContainer{
     width: 55%;
-    float: right;
+    /* float: right; */
     background-color: rgb(230, 228, 228);
     padding: 85px;
+    margin: auto;
+    width: 80%;
 }
 
 .aboutInnerContainer h1{

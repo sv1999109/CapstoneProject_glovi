@@ -3,7 +3,7 @@ footer{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: black;
+    background-color: #243e48;
     text-align: center;
     padding: 10px 0;
     display: block;
@@ -23,14 +23,23 @@ footer{
     margin-bottom: 19px;
 }
 
+.Blogreadmore{
+    color: #76d4e8;
+}
+
 .FooterContent h4{
-    color: red;
+    color: #69c2e5;
     margin-bottom: 1.5rem;
     font-size: 20px;
 }
 
 .FooterContent li{
-    margin-bottom: .5px;
+    margin-bottom: 18px;
+    list-style: none;
+}
+
+.Footerli{
+    margin-top: 44px;
 }
 
 .FooterContent li a{
@@ -60,13 +69,13 @@ footer{
 .icons a{
     display: inline-block;
     font-size: 22px;
-    color: aqua;
+    color: white;
     margin-right: 17px;
     transition: all .40s ease;
 }
 
 .icons a:hover{
-    color: white;
+    color: #76d4e8;
     transform: translateY(-5px);
     cursor: pointer;
 }

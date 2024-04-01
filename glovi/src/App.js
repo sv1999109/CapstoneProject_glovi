@@ -1,7 +1,8 @@
 import { BrowserRouter,Routes,Route } from "react-router-dom";  
 import React from "react";
 import "./AppStyle.css"
-import Login from "./Pages/LoginSignup";
+import Login from "./Pages/Login.js";
+import Signup from "./Pages/Signup.js";
 import Home from "./Pages/Home";
 import Pallet from "./Pages/PalletShippingService.js";
 import Container from "./Pages/ContainerShippingService.js";

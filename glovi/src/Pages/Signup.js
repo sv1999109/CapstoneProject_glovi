@@ -1,15 +1,24 @@
 import React, { useState } from 'react';
-import './LoginSignupStyles.css';
+import './SignupStyles.css';
 import PhoneInput from 'react-phone-number-input';
 import 'react-phone-number-input/style.css'
+import { Link } from 'react-router-dom';
 
 function Login() {
 
     const [value, setvalue] = useState();
+    const [redirect, setRedirect] = useState(false);
 
+    const [isLinkClicked, setIsLinkClicked] = useState(true);
+
+    const handleLinkClick = () => {debugger
+        setIsLinkClicked(false);
+    };
 
     return (
-        <div className="container">
+        <>
+        <div className={`container ${isLinkClicked ? 'container-open' : 'container-close'}`}>
+        <Link to="/" className="close"  onClick={handleLinkClick}></Link>
             <div className='Main'>
                 <input type='checkbox' id='chk' aria-hidden="true" />
 
@@ -45,6 +54,8 @@ function Login() {
 
             </div>
         </div>
+        </>
+        
     );
 }
 

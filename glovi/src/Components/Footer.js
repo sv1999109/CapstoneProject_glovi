@@ -11,13 +11,13 @@ function Footer() {
                     <div className="FooterContent">
                         <h4>Blogs</h4>
                         <p>Palletizing your shipments is an art that, when done right, can streamline your shipping
-                            process and maximize efficiency. Whether you're a business ow <a href="/Blogs">Read more</a></p>
+                            process and maximize efficiency. Whether you're a business ow <a className='Blogreadmore' href="/Blogs">Read more</a></p>
                     </div>
 
                     <div className="FooterContent">
                         <h4>This Site</h4>
-                        <li><a>Tracking</a></li>
-                        <li><a href="/Shipping">Shipping</a></li>
+                        <li className="Footerli"><a>Tracking</a></li>
+                        <li> <a href="/AboutUs">About</a> </li>
                         <li><a href="/Support">Help & Support</a></li>
                         <li><a href="/FAQ">FAQ</a></li>
                     </div>
