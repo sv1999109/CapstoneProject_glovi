@@ -19,6 +19,7 @@ import MasteringtheArt from "./Pages/MasteringtheArt.js";
 import UnderstandingProhibitedItems from "./Pages/UnderstandingProhibitedItems.js";
 import Shipping from "./Pages/Shipping.js";
 import GetEstimate from "./Pages/GetEstimate.js";
+import Dashboard from "./Components/DasboardNav.js";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
         <Route path="/UnderstandingProhibitedItems" element={<UnderstandingProhibitedItems />}/>
         <Route path="/Shipping" element={<Shipping />}/>
         <Route path="/GetEstimate" element={<GetEstimate />}/>
+        <Route path="/Dashboard" element={<Dashboard />}/>
       </Routes>
     </BrowserRouter>
   );
