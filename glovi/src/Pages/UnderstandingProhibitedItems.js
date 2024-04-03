@@ -9,15 +9,15 @@ function UnderstandingProhibitedItems() {
         <>
             <Header />
             <div className="blog-container">
-                <h1 style={{ marginTop: '121px', color: 'green', width: '100%', height: '50px', display: 'flex', alignItems: 'center' }}>Understanding Prohibited Items</h1>
+                <h1 style={{ marginTop: '121px', color: '#243e48', width: '100%', height: '50px', display: 'flex', alignItems: 'center' }}>Understanding Prohibited Items</h1>
                 <img src={img1} alt="Understanding Prohibited Items" className="unique-image-class1" />
 
                 <div className="blog-item" id="unique-blog-item-id">
                     <p className="blog-content">
                         Shipping items across borders comes with its own set of rules and regulations. At Glovi, we prioritize the safety and compliance of our shipments. To ensure a smooth and secure shipping experience, it's crucial to be aware of prohibited items. Let's dive into a comprehensive guide to understand what items are restricted from shipping with Glovi.
                     </p>
-                    <ol className="prohibited-items">
-                        <li>
+                    <ol className="packaging-steps">
+                        <li >
                             <strong>Why Are Some Items Prohibited?</strong>
                             <p>Before we delve into the specific items, let's understand why certain things are prohibited. Prohibitions are in place to ensure the safety of carriers, compliance with international laws, and to prevent harm to individuals and the environment. By adhering to these restrictions, we collectively contribute to a safer and more responsible shipping environment.</p>
                         </li>

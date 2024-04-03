@@ -1,192 +1,192 @@
 /* Unique styles for page heading */
 .page-heading {
-    font-size: 32px;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  /* Unique styles for blog container */
-  .blog-container {
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  /* Unique styles for blog item */
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Unique styles for blog container */
+.blog-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Unique styles for blog item */
+.blog-item {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Unique styles for individual blog items */
+
+
+/* Unique styles for blog content paragraphs */
+.blog-content {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Unique styles for packaging steps */
+.packaging-steps {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+.common-prohibited-items {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+/* Unique styles for blog conclusion */
+.blog-conclusion {
+  font-style: italic;
+  color: #888;
+}
+
+/*Image for PalletStacking */
+/* Responsive styles for image */
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.image-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.unique-image-class {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive styles for blog title */
+.blog-title {
+  text-align: center;
+}
+
+/* Responsive styles for blog content */
+.blog-item {
+  padding: 0 20px;
+}
+
+/* Responsive styles for list items */
+.blog-item ol li {
+  margin-bottom: 20px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
   .blog-item {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 0 10px;
   }
-  
-  /* Unique styles for individual blog items */
-  
-  
-  /* Unique styles for blog content paragraphs */
-  .blog-content {
-    font-size: 16px;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  /* Unique styles for packaging steps */
-  .packaging-steps {
-    list-style-type: decimal;
-    padding-left: 20px;
-  }
-  
-  .common-prohibited-items {
-    list-style-type: none;
-    padding-left: 20px;
-  }
-  
-  /* Unique styles for blog conclusion */
-  .blog-conclusion {
-    font-style: italic;
-    color: #888;
-  }
-  
-  /*Image for PalletStacking */
-  /* Responsive styles for image */
-  
-  .image-container {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-  }
-  
-  
-  .image-container {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .unique-image-class {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  /* Responsive styles for blog title */
-  .blog-title {
-    text-align: center;
-  }
-  
-  /* Responsive styles for blog content */
-  .blog-item {
-    padding: 0 20px;
-  }
-  
-  /* Responsive styles for list items */
+
   .blog-item ol li {
-    margin-bottom: 20px;
+    margin-bottom: 8px;
+    font-size: 14px; /* Adjust font size for smaller screens */
   }
-  
-  /* Media query for smaller screens */
-  @media screen and (max-width: 768px) {
-    .blog-item {
-      padding: 0 10px;
-    }
-  
-    .blog-item ol li {
-      margin-bottom: 10px;
-    }
-  }
-  
-  
-  /*Image for Understanding Prohibited Items */
-  /* Responsive styles for image */
-  
-  
-  
-  .image-container {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-  }
-  
-  
-  .image-container {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .unique-image-class1 {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  /* Responsive styles for blog title */
-  .blog-title {
-    text-align: center;
-  }
-  
-  /* Responsive styles for blog content */
+}
+
+
+
+/*Image for Understanding Prohibited Items */
+/* Responsive styles for image */
+
+
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+.image-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.unique-image-class1 {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive styles for blog title */
+.blog-title {
+  text-align: center;
+}
+
+/* Responsive styles for blog content */
+.blog-item {
+  padding: 0 20px;
+}
+
+/* Responsive styles for list items */
+.blog-item ol li {
+  margin-bottom: 20px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
   .blog-item {
-    padding: 0 20px;
+    padding: 0 10px;
   }
-  
-  /* Responsive styles for list items */
+
   .blog-item ol li {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
-  
-  /* Media query for smaller screens */
-  @media screen and (max-width: 768px) {
-    .blog-item {
-      padding: 0 10px;
-    }
-  
-    .blog-item ol li {
-      margin-bottom: 10px;
-    }
-  }
-  
-  /*Image for Mastering the Art */
-  /* Responsive styles for image */
-  
-  .image-container {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-  }
-  
-  
-  .image-container {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .unique-image-class2 {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  /* Responsive styles for blog title */
-  .blog-title {
-    text-align: center;
-  }
-  
-  /* Responsive styles for blog content */
+}
+
+/*Image for Mastering the Art */
+/* Responsive styles for image */
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+.image-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.unique-image-class2 {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive styles for blog title */
+.blog-title {
+  text-align: center;
+}
+
+/* Responsive styles for blog content */
+.blog-item {
+  padding: 0 20px;
+}
+
+/* Responsive styles for list items */
+.blog-item ol li {
+  margin-bottom: 20px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
   .blog-item {
-    padding: 0 20px;
+    padding: 0 10px;
   }
-  
-  /* Responsive styles for list items */
+
   .blog-item ol li {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
-  
-  /* Media query for smaller screens */
-  @media screen and (max-width: 768px) {
-    .blog-item {
-      padding: 0 10px;
-    }
-  
-    .blog-item ol li {
-      margin-bottom: 10px;
-    }
-  }
+}

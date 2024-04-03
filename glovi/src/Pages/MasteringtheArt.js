@@ -8,8 +8,9 @@ function MasteringtheArt() {
     return (
         <>
             <Header />
+            <div className="BlogBody">
             <div className="blog-container">
-                <h1 style={{ marginTop: '121px', color: 'green', width: '100%', height: '50px', display: 'flex', alignItems: 'center' }}>Mastering the Art of Packaging</h1>
+                <h1 style={{ marginTop: '121px', color: '#243e48', width: '100%', height: '50px', display: 'flex', alignItems: 'center' }}>Mastering the Art of Packaging</h1>
                 <img src={img2} alt="Mastering the Art" className="unique-image-class2"></img>
                 <div className="blog-item" id="unique-blog-item-id">
                     <p className="blog-content">
@@ -72,6 +73,8 @@ function MasteringtheArt() {
                     </p>
                 </div>
             </div>
+            </div>
+          
 
             <Footer />
         </>

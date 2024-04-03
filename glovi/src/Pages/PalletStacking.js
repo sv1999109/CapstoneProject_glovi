@@ -12,12 +12,12 @@ function PalletStacking() {
 
 
             <div className="blog-container">
-                <h1 style={{ marginTop: '121px', color: 'green', width: '100%', height: '50px', display: 'flex', alignItems: 'center' }}>Pallet Stacking</h1>
+                <h1 style={{ marginTop: '121px', color: '#243e48', width: '100%', height: '50px', display: 'flex', alignItems: 'center' }}>Pallet Stacking</h1>
                 <img src={img} alt="Pallet Stacking" className="unique-image-class"></img>
                 <div className="blog-item" id="unique-blog-item-id">
                     <p>Palletizing your shipments is an art that, when done right, can streamline your shipping process and maximize efficiency. Whether you're a business owner preparing a large shipment or an individual sending bulky items, understanding the principles of pallet stacking is key. In this guide, we'll explore the steps to master the art of pallet stacking for efficient shipping with Glovi.</p>
 
-                    <ol>
+                    <ol className="packaging-steps">
                         <li>
                             <strong>Choose the Right Pallet:</strong>
                             <p>Start by selecting a sturdy and appropriately sized pallet for your shipment. The pallet should comfortably accommodate the size and weight of your items without overhang.</p>
