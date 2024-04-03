@@ -29,7 +29,7 @@ export default function Home() {
     return (
         <>
             <Header />
-            {/* <div id='Sliderbody'>
+            {/* {/* <div id='Sliderbody'>
                 <div className='SliderContainer'>
                     <div className='slide-row' style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
                         {images.map((image, index) => (
@@ -49,7 +49,7 @@ export default function Home() {
                     </section>
                 </div>
             </div> */}
-            <div id="hero-section" class="hero-section">
+            {/* <div id="hero-section" class="hero-section">
                 <div class="hero-wrapper call-to-action-below h-100">
                     <div class="hero-vector"><img src="{{ asset('assets/img/hero-vector.svg') }}" alt="hero vector"/>
                     </div>
@@ -60,7 +60,7 @@ export default function Home() {
                                 {/* <h1 class="text-bold text-capitalize typed-text" style="display: none">
                                     {{ get_content_locale(get_contents('home_hero_title')) }},, {!!nl2br(get_content_locale(get_contents('home_hero_desc')))!!}</h1> */}
 
-                            </div>
+                            {/* </div>
                             <div class="col-lg-12 call-to-action-button mt-5">
                                 <form action="{{ route('tracking') }}">
                                     <div class="card border-primary justify-content-center text-center tracking-section">
@@ -119,6 +119,10 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
+            </div> *} */}
+
+            <div style={{height:"300px", marginTop:"110px"}}>
+                <h1>Home Page under construction.Please be patient!!!</h1>
             </div>
 
             <Footer />

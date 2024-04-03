@@ -3,7 +3,7 @@
     height: 50px;
 }
 
-nav {
+#HeaderNav {
     position: fixed;
     top: 0;
     width: 100%;
@@ -37,15 +37,14 @@ nav {
     text-decoration: none;
     font-size: 1.3em;
     font-weight: 600;
-    color: #69c2e5;
+    color: white;
     transition: 0.3s easy-in-out;
 }
 
-#Menu li a:hover,
-#Menu li a.active {
-    /* color: blue; */
-    color: #69c2e5;
 
+
+#Menu li a:hover {
+    color: #69c2e5;
 }
 
 /* #Menu li a:hover::after,
@@ -166,6 +165,7 @@ nav {
 
 .btnSignup:hover {
     color: #69c2e5;
+    background-color: transparent !important;
 }
 
 .background-container {
