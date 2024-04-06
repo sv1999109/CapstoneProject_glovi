@@ -1,0 +1,215 @@
+#HeaderSpace
+{
+    height: 94px;
+    width: auto;
+}
+
+
+.estimate-sections
+{
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 100rem;
+    background-color: black;
+    padding: 2rem 1rem;
+}
+
+.pickup-and-delivery-address
+{
+  text-align: center;
+}
+
+
+.get-estimate-headings
+{
+  text-align: center;
+}
+.get-estimate-headings h2
+{
+  font-size: 2rem;
+  color: red;
+}
+
+.get-estimate-headings hr
+{
+  border: none;
+  width: 5rem;
+  height: 0.25rem;
+  background-color: red;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.estimate-sections button
+{
+  background-color: red;
+  padding: 10px 15px;
+  text-shadow: 0 1px 0 rgba(19, 74, 70, 0.4);
+  transition: all .3s ease-in-out;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  overflow: hidden;
+  color: white;
+}
+
+
+#package-details-head
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+.address-form
+{
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+
+.address-input-item
+{
+    position: relative;
+    display: inline-block;
+    margin: 30px 10px;
+}
+
+#package-details
+{
+  padding: 0.5rem 0rem;
+}
+
+.parcel-details
+{
+    margin: 1rem auto;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    border: white 2px solid;
+    
+}
+
+#estimateResultsection
+{
+  text-align: center;
+}
+
+#submitEstimateForm
+{
+  max-width: 30rem;
+  min-width: 30%;
+  font-size: 1.5rem;
+}
+#estimateSubmitButtonBox
+{
+  margin: 0rem auto 1rem;
+  width: 90%;
+}
+#estimateResultBox
+{
+  color: white;
+  font-size: 1.5rem;
+}
+
+
+
+/************************************************************/
+/************************** Inputs **************************/
+/************************************************************/
+
+.parcel-details-input
+{
+    position: relative;
+    display: inline-block;
+    margin: 30px 10px;
+}
+
+.get-estimate-page-inputs
+{
+    display: inline-block;
+    width: 13rem;
+    padding: 10px 0 10px 15px;
+    font-family: "Open Sans", sans;
+    font-weight: 400;
+    background: #efefef;
+    border: 0;
+    border-radius: 3px;
+    outline: 0;
+    text-align: right;
+    transition: all .3s ease-in-out;
+}
+
+.parcel-details-input-field
+{
+  width: 11rem;
+}
+
+.get-estimate-page-inputs::-webkit-input-placeholder 
+{
+    color: #efefef;
+    text-align: left;
+    font-weight: 300;
+  }
+
+  .get-estimate-page-inputs + .get-estimate-page-labels 
+  {
+    display: inline-block;
+    position: absolute;
+    transform: translateX(0);
+    top: 0;
+    left: 0;
+    padding: 10px 15px;
+    text-shadow: 0 1px 0 rgba(19, 74, 70, 0.4);
+    transition: all .3s ease-in-out;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    overflow: hidden;
+    color: white;
+  }
+
+  .get-estimate-page-inputs + .get-estimate-page-labels:before, .get-estimate-page-inputs + .get-estimate-page-labels:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .3s ease-in-out;
+  }
+   .get-estimate-page-inputs + .get-estimate-page-labels:before {
+    top: 6px;
+    left: 5px;
+    right: 5px;
+    bottom: 6px;
+    background: red;
+  } 
+  .get-estimate-page-inputs + .get-estimate-page-labels:after {
+    top: 0;
+    bottom: 2px;
+    background: red;
+  }
+  
+  .get-estimate-page-inputs:focus,
+  .get-estimate-page-inputs:active {
+    color: #377D6A;
+    text-align: left;
+    background: #fff;
+  }
+  .get-estimate-page-inputs:focus::-webkit-input-placeholder,
+  .get-estimate-page-inputs:active::-webkit-input-placeholder {
+    color: #aaa;
+  }
+  .get-estimate-page-inputs:focus + .get-estimate-page-labels,
+  .get-estimate-page-inputs:active + .get-estimate-page-labels {
+    transform: translateY(-100%);
+  }
+  .get-estimate-page-inputs:focus + .get-estimate-page-labels:before,
+  .get-estimate-page-inputs:active + .get-estimate-page-labels:before {
+    border-radius: 5px;
+  }
+  .get-estimate-page-inputs:focus + .get-estimate-page-labels:after,
+  .get-estimate-page-inputs:active + .get-estimate-page-labels:after {
+    transform: translateY(100%);
+  }

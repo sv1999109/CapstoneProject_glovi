@@ -1,0 +1,90 @@
+#Faq_body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: lightgrey;
+    padding: 40px;
+}
+
+.FaqAccordion {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 45px 90px 45px 60px;
+    border-radius: 25px;
+    max-width: 1010px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.FaqAccordion .FaqImgbox {
+    height: 360px;
+    width: 360px;
+}
+
+.FaqAccordion .FaqImgbox img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.FaqAccordion .FaqAccordionText {
+    width: 60%;
+}
+
+.FaqAccordion .FaqAccordionText .Fag_Title {
+    font-size: 35px;
+    font-weight: 600;
+    color: red;
+}
+
+.FaqAccordion .FaqAccordionText .FaqText {
+    margin-top: 25px;
+    height: 263px;
+    overflow-y: auto;
+}
+
+.FaqAccordion .FaqAccordionText .FaqList {
+    list-style: none;
+    cursor: pointer;
+}
+
+.FaqAccordionText .FaqList .question-arrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FaqAccordionText .FaqList .question-arrow .question {
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.FaqAccordionText .FaqList:hover .question-arrow .question,
+.FaqAccordionText .FaqList:hover .question-arrow .arrow{
+color: skyblue;
+}
+
+.FaqAccordionText .FaqList .Faqline {
+    display: block;
+    height: 2px;
+    width: 100%;
+    margin: 10px 0;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.FaqAccordionText .FaqList p{
+    width: 92%;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.FaqText .hide {
+    display: none;
+}
+
+.FaqText .show {
+    display: block;
+}

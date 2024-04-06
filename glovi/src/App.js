@@ -1,32 +1,33 @@
 import { BrowserRouter,Routes,Route } from "react-router-dom";  
 import React from "react";
 import "./AppStyle.css"
-import Login from "./Pages/Login.js";
-import Signup from "./Pages/Signup.js";
-import Home from "./Pages/Home";
-import Pallet from "./Pages/PalletShippingService.js";
-import Container from "./Pages/ContainerShippingService.js";
-import Truck from "./Pages/TruckTransportService.js";
-import Van from "./Pages/VanTransportService.js";
-import Parcel from "./Pages/ParcelDelivery.js";
-import Documents from "./Pages/DocumentsShippingService.js";
-import Support from "./Pages/Support.js";
-import About from "./Pages/AboutUs.js";
-import Blogs from "./Pages/Blogs.js";
-import FAQ from "./Pages/FAQ.js";
-import PalletStacking from "./Pages/PalletStacking.js";
-import MasteringtheArt from "./Pages/MasteringtheArt.js";
-import UnderstandingProhibitedItems from "./Pages/UnderstandingProhibitedItems.js";
-import Shipping from "./Pages/Shipping.js";
-import GetEstimate from "./Pages/GetEstimate.js";
-import Dashboard from "./Components/DasboardNav.js";
+import Login from "./Pages/Login/Login.js";
+import Signup from "./Pages/SignUp/Signup.js";
+import Homepage from "./Pages/HomePage/Homepage.jsx";
+import Pallet from "./Pages/Services/PalletShippingService.js";
+import Container from "./Pages/Services/ContainerShippingService.js";
+import Truck from "./Pages/Services/TruckTransportService.js";
+import Van from "./Pages/Services/VanTransportService.js";
+import Parcel from "./Pages/Services/ParcelDelivery.js";
+import Documents from "./Pages/Services/DocumentsShippingService.js";
+import Support from "./Pages/Support/Support.js";
+import About from "./Pages/AboutUs/AboutUs.js";
+import Blogs from "./Pages/Blogs/Blogs.js";
+import FAQ from "./Pages/Faq/FAQ.js";
+import PalletStacking from "./Pages/BlogsItems/PalletStacking.js";
+import MasteringtheArt from "./Pages/BlogsItems/MasteringtheArt.js";
+import UnderstandingProhibitedItems from "./Pages/BlogsItems/UnderstandingProhibitedItems.js";
+import Shipping from "./Pages/Shipping/Shipping.js";
+import GetEstimate from "./Pages/GetEstimate/GetEstimate.js";
+import Dashboard from "./Components/Dashboard/DasboardNav.js";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />}/>
+        <Route path="/" element={<Homepage />}/>
         <Route path="/login" element={<Login />}/>
+        <Route path="/Signup" element={<Signup />}/>
         <Route path="/PalletService" element={<Pallet />}/>
         <Route path="/ContainerService" element={<Container />}/>
         <Route path="/TruckService" element={<Truck />}/>
