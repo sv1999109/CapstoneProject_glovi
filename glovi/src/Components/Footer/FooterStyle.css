@@ -3,8 +3,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #243e48;
-    text-align: center;
+    background-color: #36134a;
     padding: 10px 0;
     display: block;
 }
@@ -28,9 +27,10 @@ footer {
 }
 
 .FooterContent h4 {
-    color: #69c2e5;
+    color: #ffa13d;
     margin-bottom: 1.5rem;
     font-size: 20px;
+    font-weight: 600;
 }
 
 .FooterContent li {
@@ -73,8 +73,12 @@ p.contact-input svg {
 
 .icons a {
     display: inline-block;
-    font-size: 22px;
-    color: white;
+    font-size: 35px;
+    height: 2.25rem;
+    width: 2.25rem;
+    color: #36134a;
+    background-color: white;
+    border-radius: 9999px;
     margin-right: 17px;
     transition: all .40s ease;
 }

@@ -1,0 +1,226 @@
+
+h1{
+  padding: 20px;
+  color: #243A48;
+}
+.table-container {
+  width: 100%;
+  /* overflow-x: scroll; 
+  overflow-y: scroll;  */
+
+}
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.styled-table th, .styled-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+.styled-table th {
+  background-color: #243A48;
+  color: #EDF2F8;
+}
+.styled-table tbody tr:nth-child(even) {
+  background-color: #EDF2F8;
+}
+.styled-table tbody tr:hover {
+  background-color: #ddd;
+}
+
+/* dropdown-container AddressBook page */
+.dropdown-container{
+  margin-bottom: 10px;
+}
+.dropdown-container label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.dropdown-container select {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* search-container AddressBook page*/
+.search-container{
+  position: absolute;
+  right: 100px; 
+  top: 135px; 
+}
+.search-container label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+.search-container input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* modals */
+.modal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0.5, 0.5, 0.5, 0.8); /* for black background */
+  z-index: 9999; /* the modal is on top of other content */
+}
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* shadow */
+
+}
+.close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 60px;
+  cursor: pointer;
+  color: #fff; /*close button on the right */
+}
+.close:hover, .popup {
+  color: #000; 
+  transform: scale(1.5); 
+}
+.modal h2 {
+  margin-bottom: 10px;
+  color: #243A48;
+  text-align: center;
+  font-weight: bold;
+}
+.modal p {
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: justify; /* better alignment */
+  line-height: 1.5;
+}
+.modal label {
+  display: block;
+  margin-bottom: 5px; /* spacing between the labels */
+}
+
+.modal input[type="text"] {
+  width: 100%; /* Full width text input */
+  padding: 5px; 
+  margin-bottom: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 3px; 
+}
+.modal-button{
+  padding: 200px;
+}
+.modal button:first-of-type {
+  background-color: #dc3545; /* Red color for "Yes" button */
+  color: #fff;
+}
+
+.modal button:first-of-type:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+.modal button:last-of-type {
+  background-color: #007bff; /* Blue color for "No" button */
+  color: #fff;
+}
+.modal button:last-of-type:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* pop up to add a new address */
+.popup {
+  position: fixed; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  background-color: #ffffff; 
+  border: 1px solid #ccc; 
+  padding: 20px; 
+  border-radius: 5px; 
+  box-shadow: 0px 4px rgba(0, 0, 0, 0.1); 
+  z-index: 1001; 
+  max-width: 400px; 
+}
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0.5, 0.5, 0.5, 0.8); /* Semi-transparent black color */
+  z-index: 1000; /* Ensure it's above other content */
+}
+.popup h2 {
+  margin-top: 0; 
+  text-align: center;
+}
+
+.popup label {
+  display: block; 
+  margin-bottom: 5px; 
+}
+
+.popup input[type="text"] {
+  width: 100%; 
+  padding: 5px; 
+  margin-bottom: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 3px; 
+}
+
+.popup button {
+  padding: 10px 20px;
+  margin-right: 20px; 
+  border: none; 
+  border-radius: 3px;
+  background-color: #007bff; 
+  color: #fff; 
+  cursor: pointer; 
+}
+.popup button:last-of-type {
+  background-color: #dc3545; /* Red color for "Yes" button */
+  color: #fff;
+}
+.popup button:last-of-type:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+.popup button:first-of-type {
+  background-color: #007bff; /* Blue color for "No" button */
+  color: #fff;
+}
+.popup button:first-of-type:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+.page-container {
+  width: 75%; 
+  margin-left: 300px;
+  margin-top: 30px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+@media only screen and (max-width: 1024px) {
+  .page-container {
+    width: 95%; 
+  }
+  .search-container {
+    right: 10px; 
+    top: 100px; 
+  }
+  .dropdown-container {
+    right: 10px; 
+    top: 70px; 
+  }
+}
+

@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../../Components/Header/Header'
 import Footer from '../../Components/Footer/Footer'
-import VanImg from '../../assets/ParcelDelivery.svg'
+import VanImg from '../../assets/Parcel.png'
 import './ServicesStyle.css'
 
 function Parcel() {

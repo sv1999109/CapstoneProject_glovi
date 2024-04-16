@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../../Components/Header/Header'
 import Footer from '../../Components/Footer/Footer'
-import DocumentsImg from '../../assets/DocumentsShippingService.svg'
+import DocumentsImg from '../../assets/Documents.png'
 import './ServicesStyle.css'
 
 function Documents() {

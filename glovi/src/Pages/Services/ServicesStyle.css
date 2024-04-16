@@ -1,16 +1,15 @@
 .Servicebody{
     font-family: 'Poppins';
     width: 100%;
-    min-height: 100vh;
+    min-height: 87vh;
     display: grid;
     place-items:  center;
-    margin-top: 94px;
-    background-color: rgb(230, 228, 228);
+    margin-top: 84px;
 }
 
 .Servicerow {
     width: 80%;
-    max-width: 1170px;
+    /* max-width: 1170px; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 50px 30px;
@@ -89,3 +88,12 @@
 }
 
 
+/* .Servicerow {
+    animation: mymove 3s;
+    position: relative;
+}
+
+@keyframes mymove {
+    from {left: -200px;}
+    to {left: 100px;}
+  } */

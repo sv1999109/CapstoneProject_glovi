@@ -1,0 +1,37 @@
+#main-track-div   {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#track-body {
+    padding: 200px 20px 200px 20px;
+    background: #ffd79c;
+    flex-direction: column;
+    display: flex;
+}
+
+#track-heading{
+    padding-bottom: 53px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: xxx-large;
+}
+
+.TrackButton{
+    background: #36134a;
+    width: 114px;
+    align-content: center;
+    margin: 41px auto;
+    padding: 23px;
+    color: white;
+
+}
+
+.responsive-textarea {
+    width: 80%; 
+    max-width: 100%; 
+    box-sizing: border-box; 
+    padding: 25px;
+}

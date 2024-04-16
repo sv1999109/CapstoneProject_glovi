@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../../Components/Header/Header'
 import Footer from '../../Components/Footer/Footer'
-import VanImg from '../../assets/VanTransportService.svg'
+import VanImg from '../../assets/van.png'
 import './ServicesStyle.css'
 
 function Van() {

@@ -25,9 +25,11 @@ function GetEstimate() {
     return (
         <>
             <Header />
+            <div className="GetEstimateBody">
             <div id="HeaderSpace"></div>
             
             <div id="pickupAndDeliveryAddressSection" className="estimate-sections">
+            
                 <div className="pickup-and-delivery-address">
                     <div className="get-estimate-headings" style={{ textAlign: 'left', marginLeft: '15%'}}>
                         <h2>Pickup Address</h2>
@@ -63,6 +65,9 @@ function GetEstimate() {
                 </div>
             </div>
             <Footer />
+            </div>
+           
+        
         </>
     )
 }

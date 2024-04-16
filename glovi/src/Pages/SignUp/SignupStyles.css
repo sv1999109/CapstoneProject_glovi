@@ -127,7 +127,7 @@ form.sign-in-form {
 
 .btn {
     width: 150px;
-    background-color: #5995fd;
+    background-color: #36134a;
     border: none;
     outline: none;
     height: 49px;
@@ -162,7 +162,10 @@ form.sign-in-form {
     top: -10%;
     right: 48%;
     transform: translateY(-50%);
-    background-image: linear-gradient(-45deg, #4481eb 0%, #04befe 100%);
+    /* background-image: linear-gradient(-45deg, #4481eb 0%, 
+    #36134a
+     100%); */
+     background: #36134a;
     transition: 1.8s ease-in-out;
     border-radius: 50%;
     z-index: 6;
@@ -445,7 +448,7 @@ form.sign-in-form {
     content: ' ';
     height: 33px;
     width: 2px;
-    background-color: black;
+    background-color: orange ;
 }
 
 .close:before {

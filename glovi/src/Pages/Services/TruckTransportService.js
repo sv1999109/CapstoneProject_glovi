@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../../Components/Header/Header'
 import Footer from '../../Components/Footer/Footer'
-import TruckImg from '../../assets/TruckTransportService.svg'
+import TruckImg from '../../assets/Truck.png'
 import './ServicesStyle.css'
 
 function Truck() {

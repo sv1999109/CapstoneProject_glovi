@@ -22,7 +22,7 @@ const DashboardNavbar = () => {
       <ul className="navbar-nav">
         <li className="nav-heading">Menu</li>
         <li className="nav-item">
-          <a href="#dashboard" className="nav-link">Dashboard</a>
+          <a href="/Dashboard" className="nav-link">Dashboard</a>
         </li>
         <li className="nav-item">
           <a href="#create-shipment" className="nav-link">Create Shipment</a>
@@ -35,16 +35,16 @@ const DashboardNavbar = () => {
         </li>
         <li className="nav-heading">Customers</li>
         <li className="nav-item">
-          <a href="#address-book" className="nav-link">Address Book</a>
+          <a href="/AddressBook" className="nav-link">Address Book</a>
         </li>
         <li className="nav-item">
-          <a href="#orders" className="nav-link">Orders</a>
+          <a href="/Orders" className="nav-link">Orders</a>
         </li>
         <li className="nav-item">
-          <a href="#manage-invoice" className="nav-link">Manage Invoice</a>
+          <a href="/ManageInvoice" className="nav-link">Manage Invoice</a>
         </li>
         <li className="nav-item">
-          <a href="#payments" className="nav-link">Payments</a>
+          <a href="/Payments" className="nav-link">Payments</a>
         </li>
       </ul>
     </nav>

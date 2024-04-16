@@ -1,3 +1,7 @@
+.GetEstimateBody{
+  background: #ffd79c;
+}
+
 #HeaderSpace
 {
     height: 94px;
@@ -12,8 +16,10 @@
     flex-direction: column;
     flex-wrap: wrap;
     max-width: 100rem;
-    background-color: black;
+    background-color: #fff;
     padding: 2rem 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 2rem;
 }
 
 .pickup-and-delivery-address
@@ -29,7 +35,7 @@
 .get-estimate-headings h2
 {
   font-size: 2rem;
-  color: red;
+  color: #36134a;
 }
 
 .get-estimate-headings hr
@@ -37,14 +43,14 @@
   border: none;
   width: 5rem;
   height: 0.25rem;
-  background-color: red;
+  background-color: #69c2e5;
   border-radius: 10px;
   margin-bottom: 20px;
 }
 
 .estimate-sections button
 {
-  background-color: red;
+  background-color: #ffa13d;
   padding: 10px 15px;
   text-shadow: 0 1px 0 rgba(19, 74, 70, 0.4);
   transition: all .3s ease-in-out;
@@ -89,7 +95,7 @@
     z-index: 1;
     text-align: center;
     border: white 2px solid;
-    
+    border-radius: 2rem;
 }
 
 #estimateResultsection
@@ -102,6 +108,7 @@
   max-width: 30rem;
   min-width: 30%;
   font-size: 1.5rem;
+  border-radius: 2rem;
 }
 #estimateSubmitButtonBox
 {
@@ -110,10 +117,13 @@
 }
 #estimateResultBox
 {
-  color: white;
+  color: black;
   font-size: 1.5rem;
 }
-
+.estimate-sections button
+{
+  border-radius: 0.5rem;
+}
 
 
 /************************************************************/
@@ -183,12 +193,12 @@
     left: 5px;
     right: 5px;
     bottom: 6px;
-    background: red;
+    background: #8b58a8;
   } 
   .get-estimate-page-inputs + .get-estimate-page-labels:after {
     top: 0;
     bottom: 2px;
-    background: red;
+    background:  #36134a;
   }
   
   .get-estimate-page-inputs:focus,

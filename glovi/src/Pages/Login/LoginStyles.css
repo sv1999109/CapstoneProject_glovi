@@ -162,7 +162,7 @@ form.sign-in-form {
     top: -10%;
     right: 48%;
     transform: translateY(-50%);
-    background-image: linear-gradient(-45deg, #4481eb 0%, #04befe 100%);
+   background-color: #36134a;
     transition: 1.8s ease-in-out;
     border-radius: 50%;
     z-index: 6;
@@ -454,4 +454,21 @@ form.sign-in-form {
 
 .close:after {
     transform: rotate(-45deg);
+}
+
+.error{
+    color:red;
+}
+
+.password-toggle-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #888;
+}
+
+.password-toggle-icon:hover {
+    color: #333;
 }

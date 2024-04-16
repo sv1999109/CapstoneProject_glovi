@@ -2,9 +2,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 77vh;
     background: lightgrey;
     padding: 40px;
+    margin-top: 55px;
 }
 
 .FaqAccordion {
@@ -36,7 +37,7 @@
 .FaqAccordion .FaqAccordionText .Fag_Title {
     font-size: 35px;
     font-weight: 600;
-    color: red;
+    color: #36134a
 }
 
 .FaqAccordion .FaqAccordionText .FaqText {
@@ -64,7 +65,7 @@
 
 .FaqAccordionText .FaqList:hover .question-arrow .question,
 .FaqAccordionText .FaqList:hover .question-arrow .arrow{
-color: skyblue;
+color: #ffa13d;
 }
 
 .FaqAccordionText .FaqList .Faqline {

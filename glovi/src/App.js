@@ -2,8 +2,9 @@ import { BrowserRouter,Routes,Route } from "react-router-dom";
 import React from "react";
 import "./AppStyle.css"
 import Login from "./Pages/Login/Login.js";
+import Sidebar from '../src/Pages/DashboardItem/AdminComponents/sidebar/Sidebar.js'
 import Signup from "./Pages/SignUp/Signup.js";
-import Homepage from "./Pages/HomePage/Homepage.jsx";
+import Homepage from "./Pages/HomePage/Homepage.js";
 import Pallet from "./Pages/Services/PalletShippingService.js";
 import Container from "./Pages/Services/ContainerShippingService.js";
 import Truck from "./Pages/Services/TruckTransportService.js";
@@ -14,12 +15,17 @@ import Support from "./Pages/Support/Support.js";
 import About from "./Pages/AboutUs/AboutUs.js";
 import Blogs from "./Pages/Blogs/Blogs.js";
 import FAQ from "./Pages/Faq/FAQ.js";
-import PalletStacking from "./Pages/BlogsItems/PalletStacking.js";
-import MasteringtheArt from "./Pages/BlogsItems/MasteringtheArt.js";
-import UnderstandingProhibitedItems from "./Pages/BlogsItems/UnderstandingProhibitedItems.js";
 import Shipping from "./Pages/Shipping/Shipping.js";
 import GetEstimate from "./Pages/GetEstimate/GetEstimate.js";
-import Dashboard from "./Components/Dashboard/DasboardNav.js";
+import AddressBook from "./Pages/DashboardItem/AddressBook.js";
+import AddAddress from "./Pages/DashboardItem/AddAddress.js";
+import ManageInvoice from "./Pages/DashboardItem/ManageInvoice.js";
+import Orders from "./Pages/DashboardItem/Orders.js";
+import Payments from "./Pages/DashboardItem/Payments.js";
+import Home from "../src/Pages/DashboardItem/AdminPages/home/Home.js";
+import CreateShipmentPage from "../src/Pages/DashboardItem/AdminPages/Shipment/CreateShipmentPage.js";
+import ManageShipments from "../src/Pages/DashboardItem/ManageShipments.js";
+import Tracking from "../src/Pages/Tracking/Tracking.js";
 
 function App() {
   return (
@@ -38,12 +44,17 @@ function App() {
         <Route path="/AboutUs" element={<About />}/>
         <Route path="/Blogs" element={<Blogs />}/>
         <Route path="/FAQ" element={<FAQ />}/>
-        <Route path="/PalletStacking" element={<PalletStacking />}/>
-        <Route path="/MasteringtheArt" element={<MasteringtheArt />}/>
-        <Route path="/UnderstandingProhibitedItems" element={<UnderstandingProhibitedItems />}/>
         <Route path="/Shipping" element={<Shipping />}/>
         <Route path="/GetEstimate" element={<GetEstimate />}/>
-        <Route path="/Dashboard" element={<Dashboard />}/>
+        <Route path="/Dashboard"element={<Home/>}/>
+        <Route path="/createShipment"element={<CreateShipmentPage/>}/>
+        <Route path="/AddressBook" element={<AddressBook />}/>
+        <Route path="/manageShipments" element={<ManageShipments />}/>
+        <Route path="/ManageInvoice" element={<ManageInvoice />}/>
+        <Route path="/Orders" element={<Orders />}/>
+        <Route path="/Payments" element={<Payments />}/>
+        <Route path="/Tracking" element={<Tracking />}/>
+        <Route path="/AddAddress" element={<AddAddress />}/>
       </Routes>
     </BrowserRouter>
   );
