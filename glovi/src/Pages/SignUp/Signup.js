@@ -31,7 +31,7 @@ function Signup() {
     return (
         <>
          
-        <div className={`container ${isSignUpMode ? 'sign-up-mode' : ''}  ${isLinkClicked ? 'container-open' : 'container-close'}`}>
+        <div className={`SignUpcontainer ${isSignUpMode ? 'sign-up-mode' : ''}  ${isLinkClicked ? 'container-open' : 'container-close'}`}>
         
 
        <div className='SignupLoginBody'>

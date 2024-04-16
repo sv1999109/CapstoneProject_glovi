@@ -24,9 +24,9 @@ function Footer() {
 
                     <div className="FooterContent">
                         <h4>Contact Us</h4>
-                        <p><TiDevicePhone />+13068079974</p>
-                        <p><TiMail />no-reply@ansabooks.com</p>
-                        <p><TiLocation />Tallinn, Estonia: Regina, Canada</p>
+                        <p className="contact-input"><TiDevicePhone />+13068079974</p>
+                        <p className="contact-input"><TiMail />no-reply@ansabooks.com</p>
+                        <p className="contact-input"><TiLocation />Tallinn, Estonia: Regina, Canada</p>
                     </div>
 
                     <div className="FooterContent">

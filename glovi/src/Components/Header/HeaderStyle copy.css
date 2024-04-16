@@ -1,0 +1,230 @@
+#Logo {
+    width: 111px;
+    height: 50px;
+}
+
+#HeaderNav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    justify-content: center;
+    background-color: #243e48;
+    padding: 20px 80px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 1000
+}
+
+#Menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#Menu li {
+    list-style: none;
+    padding: 0 5px;
+    position: relative;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+#Menu li a {
+    padding-bottom: 6px;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 600;
+    color: white;
+    transition: 0.3s easy-in-out;
+}
+
+
+
+#Menu li a:hover {
+    color: #69c2e5;
+}
+
+/* #Menu li a:hover::after,
+#Menu li a.active::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color: skyblue;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+} */
+
+#mobile {
+    display: none;
+}
+
+@media screen and (max-width:1185px) {
+    #Menu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 90px;
+        right: -300px;
+        width: 300px;
+        height: 56vh;
+        background-color: #243e48;
+        box-shadow: 0 40px 60px egba(0, 0, 0, 0.1);
+        padding: 40px 0 0 10px;
+    }
+
+    #Menu.active {
+        right: 0px;
+    }
+
+    #Menu li {
+        margin-bottom: 25px;
+    }
+
+    #Menu li a {
+        margin-bottom: -25px;
+    }
+
+    #mobile {
+        display: block;
+    }
+
+    #mobile i {
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .LoginSignupbtn {
+        padding-left: 46px;
+    }
+
+    @media screen and (max-width:838px) {
+        #Menu {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            position: fixed;
+            top: 90px;
+            right: -300px;
+            width: 300px;
+            height: 100vh;
+            background-color: #243e48;
+            box-shadow: 0 40px 60px egba(0, 0, 0, 0.1);
+            padding: 40px 0 0 10px;
+        }
+
+        #Menu.active {
+            right: 0px;
+            height: auto;
+        }
+
+        #Menu li {
+            margin-bottom: 25px;
+        }
+
+        #mobile {
+            display: block;
+        }
+
+        #mobile i {
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .LoginSignupbtn {
+            padding-left: 46px;
+        }
+    }
+}
+
+#mobile i {
+    color: #69c2e5;
+}
+
+.btnSignup {
+    background: #5E5DF0;
+    border-radius: 999px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    border: 0;
+}
+
+.btnSignup:hover {
+    color: #69c2e5;
+    background-color: transparent !important;
+}
+
+.background-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.Menu:hover .dropdown {
+    display: block;
+    padding-top: 10px;
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: -40px;
+    z-index: 1;
+    display: none;
+    background-color: #243e48;
+    color: #69c2e5;
+    min-width: 100px;
+}
+
+.dropdown li {
+    list-style-type: none;
+    white-space: nowrap;
+}
+
+.dropdown li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 2px 10px;
+}
+
+.LoginSignupbtn {
+    padding-left: 46px;
+}
+
+.button-space {
+    margin-right: 10px;
+}
+
+.transmission {
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    transition-duration: .15s;
+}
+
+.menuItems {
+    display: flex;
+}
+
+.flex-container {
+    display: flex;
+    align-items: stretch;
+}

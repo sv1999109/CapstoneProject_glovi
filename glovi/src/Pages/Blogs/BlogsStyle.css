@@ -34,7 +34,7 @@
 
 .blogcontainer{
     display:  grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     max-width: 1050px;
     width:  90%;
     margin-top: 50px;
@@ -46,7 +46,7 @@
     height: 100%;
     padding: 10px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     transition: all ease 0.3s;
 }
 
@@ -63,10 +63,10 @@
 }
 
 .blogImg img{
-   max-height: 185px;
-   width: 100%;
+   /* max-height: 185px; */
+   /* width: 100%; */
    height: 100%;
-   object-fit:cover;
+   /* object-fit:cover; */
    object-position: center;
 }
 
@@ -98,7 +98,7 @@
 
 .blogtext p{
     color: grey;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
 }
 
 .blogbox a{
@@ -107,15 +107,15 @@
 
 @media (max-width:920px){
     .blogcontainer{
-        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
         grid-gap: 10px 0px;
     }
 
     .blogImg img{
-        min-height: 210px;
+        /* min-height: 210px; */
         width: 100%;
         height: 90%;
-        object-fit:cover;
+        /* object-fit:cover; */
         object-position: center;
      }
 }
@@ -128,4 +128,52 @@
         font-size: 1.6rem;
         line-height: 1.6rem;
     }
+}
+
+@media (max-width: 640px){
+    .blogcontainer{
+        grid-template-columns: 1fr;
+    }
+    .blogheading h3{
+        font-size: 1.6rem;
+        line-height: 1.6rem;
+    }
+    #blogsection{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 40px;
+        padding-top: 130px;
+        border-bottom: 1px solid rgba(0,0,0,0.05);
+    }
+
+    .blogbox{
+        max-width:100%;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        transition: all ease 0.3s;
+    }
+
+    #blogsection > div.blogcontainer > div:nth-child(2)  {
+        max-width:100%;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column-reverse;
+        transition: all ease 0.3s;
+    }
+}
+
+.learnMore {
+    border: 1px solid blue;
+    padding: 3.5px;
+}
+
+.arrow {
+    display: inline;
 }

@@ -1,4 +1,4 @@
-footer{
+footer {
     position: relative;
     left: 0;
     bottom: 0;
@@ -9,40 +9,40 @@ footer{
     display: block;
 }
 
-.Footersection{
+.Footersection {
     padding: 33px 13% 0px;
 }
 
-.Footer{
+.Footer {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(200px,auto));
-    column-gap: 3.5rem;  
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    column-gap: 3.5rem;
 }
 
-.FooterContent{
+.FooterContent {
     margin-bottom: 19px;
 }
 
-.Blogreadmore{
+.Blogreadmore {
     color: #76d4e8;
 }
 
-.FooterContent h4{
+.FooterContent h4 {
     color: #69c2e5;
     margin-bottom: 1.5rem;
     font-size: 20px;
 }
 
-.FooterContent li{
+.FooterContent li {
     margin-bottom: 18px;
     list-style: none;
 }
 
-.Footerli{
+.Footerli {
     margin-top: 44px;
 }
 
-.FooterContent li a{
+.FooterContent li a {
     display: block;
     color: white;
     font-size: 15px;
@@ -50,23 +50,28 @@ footer{
     transition: all .40s ease;
     cursor: pointer;
     margin-top: -15px;
-    padding-bottom: 8px;    
+    padding-bottom: 8px;
     text-decoration: none;
 }
 
-.FooterContent li a:hover{
+.FooterContent li a:hover {
     transform: translateY(-3px) translateX(-5px);
     color: skyblue;
 }
 
-.FooterContent p{
+.FooterContent p {
     color: white;
     font-size: 16px;
     line-height: 30px;
     margin-bottom: 3px;
 }
 
-.icons a{
+p.contact-input svg {
+    display: inline !important;
+}
+
+
+.icons a {
     display: inline-block;
     font-size: 22px;
     color: white;
@@ -74,30 +79,30 @@ footer{
     transition: all .40s ease;
 }
 
-.icons a:hover{
+.icons a:hover {
     color: #76d4e8;
     transform: translateY(-5px);
     cursor: pointer;
 }
 
-@media (maz-width:1690px){
-    section{
+@media (maz-width:1690px) {
+    section {
         padding: 50px 5% 40px;
     }
 }
 
-@media (maz-width:1120px){
-    .Footer{
+@media (maz-width:1120px) {
+    .Footer {
         display: grid;
-        grid-template-columns: repeat(auto-fit,minmax(300px,auto));
+        grid-template-columns: repeat(auto-fit, minmax(300px, auto));
         column-gap: 2rem;
     }
 }
 
-@media (maz-width:700px){
-    .Footer{
+@media (maz-width:700px) {
+    .Footer {
         display: grid;
-        grid-template-columns: repeat(auto-fit,minmax(150px,auto));
+        grid-template-columns: repeat(auto-fit, minmax(150px, auto));
         column-gap: 2.5rem;
     }
 }
