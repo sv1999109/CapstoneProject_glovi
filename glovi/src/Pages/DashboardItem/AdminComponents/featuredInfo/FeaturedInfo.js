@@ -1,6 +1,6 @@
 import { ArrowDownward, ArrowUpward } from "@mui/icons-material";
 import { useEffect, useState } from "react";
-import { FaDollarSign, FaShoppingCart, FaMoneyBillWave } from "react-icons/fa";
+import { FaCheckCircle, FaShippingFast, FaHourglassHalf,FaTruck  } from "react-icons/fa";
 
 export default function FeaturedInfo() {
 
@@ -16,7 +16,7 @@ export default function FeaturedInfo() {
       <div style={{boxShadow: "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset"}} className="p-6 bg-pink-800 rounded-lg shadow-md text-white">
         <div className="flex items-center justify-between">
         <span className="text-sm font-medium uppercase">Shipments</span>
-          <FaShoppingCart className="w-6 h-6" />
+          <FaShippingFast className="w-6 h-6" />
         </div>
         <div className="flex items-center mt-2">
         <span className="text-3xl font-semibold">${todayIncome}</span>
@@ -34,7 +34,7 @@ export default function FeaturedInfo() {
       <div style={{boxShadow: "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset"}} className="p-6 bg-gray-700 rounded-lg shadow-md text-white">
         <div className="flex items-center justify-between">
         <span className="text-sm font-medium uppercase">Pending</span>
-          <FaMoneyBillWave className="w-6 h-6" />
+          <FaHourglassHalf className="w-6 h-6" />
         </div>
         <div  className="flex items-center mt-2">
           <span className="text-3xl font-semibold">${income}</span>
@@ -52,7 +52,7 @@ export default function FeaturedInfo() {
       <div style={{boxShadow: "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset"}} className="p-6 bg-orange-500 rounded-lg shadow-md text-white">
         <div className="flex items-center justify-between">
         <span className="text-sm font-medium uppercase">Shipped</span>
-          <FaMoneyBillWave className="w-6 h-6" />
+          <FaTruck className="w-6 h-6" />
         </div>
         <div  className="flex items-center mt-2">
           <span className="text-3xl font-semibold">${income}</span>
@@ -70,7 +70,7 @@ export default function FeaturedInfo() {
       <div style={{boxShadow: "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset"}} className="p-6 bg-purple-700 rounded-lg shadow-md text-white">
         <div className="flex items-center justify-between">
           <span className="text-sm font-medium uppercase">Delivered</span>
-          <FaDollarSign className="w-6 h-6" />
+          <FaCheckCircle className="w-6 h-6" />
         </div>
         <div className="flex items-center mt-2">
           <span className="text-3xl font-semibold">0</span>
